@@ -6,13 +6,10 @@ import javax.swing.JOptionPane;
  * Describe responsibilities here. NOTE: this class has NO PREREQUISITES!
  * Do not change this fact.
  *
- * @author      your name goes here
- * @version     1.00
+ * @author      Neil Urban
+ * @version     1.1
  */
 public class IntroToProgrammingCourse extends ProgrammingCourses{
-    private String courseName;
-    private String courseNumber;
-    private double credits;
 
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
         this.setCourseName(courseName);
@@ -25,7 +22,7 @@ public class IntroToProgrammingCourse extends ProgrammingCourses{
                     "Error: credits must be in the range 0.5 to 4.0");
             System.exit(0);
         }
-        this.credits = credits;
+        this.setCredits(credits);
     }
 
    

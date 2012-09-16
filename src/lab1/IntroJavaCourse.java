@@ -3,22 +3,19 @@ package lab1;
 /**
  * Describe responsibilities here.
  *
- * @author      your name goes here
- * @version     1.00
+ * @author      Neil Urban
+ * @version     1.1
  */
 import javax.swing.JOptionPane;
 
 public class IntroJavaCourse extends ProgrammingCourses {
-    String courseName;
-    private String courseNumber;
-    private double credits;
     private String prerequisites;
 
     public IntroJavaCourse(String courseName, String courseNumber) {
-        this.courseName = courseName;
-        this.courseNumber = courseNumber;
+        this.setCourseName(courseName);
+        this.setCourseNumber(courseNumber);
     }
-
+    
     public String getPrerequisites() {
         return prerequisites;
     }
