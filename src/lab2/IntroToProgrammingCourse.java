@@ -5,10 +5,10 @@ import javax.swing.JOptionPane;
 /**
  * Describe responsibilities here.
  *
- * @author      your name goes here
+ * @author      Neil Urban
  * @version     1.00
  */
-public class IntroToProgrammingCourse {
+public class IntroToProgrammingCourse implements ProgrammingCourse {
     private String courseName;
     private String courseNumber;
     private double credits;
@@ -19,7 +19,7 @@ public class IntroToProgrammingCourse {
     }
 
     public String getCourseNumber() {
-        return courseNumber;
+        return courseNumber; 
     }
 
     public final void setCourseNumber(String courseNumber) {
