@@ -10,4 +10,8 @@ package lab3;
  */
 public interface AutoSafety {
     public boolean strappedSeatBelt = true; //True = on; False = off.   --  defaults at true.
+    
+    public boolean isStrappedSeatBelt();
+    
+    public void setStrappedSeatBelt(boolean seatBelt);
 }
